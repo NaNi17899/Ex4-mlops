@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+
+# DVC local storage & cache
+dvc_remote/
+.dvc/cache/
+.dvc/tmp/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Checkpoints
+.ipynb_checkpoints/
